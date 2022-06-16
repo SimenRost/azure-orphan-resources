@@ -19,8 +19,8 @@ jobs:
       - name: Run Bicep Build action
         uses: Azure/bicep-build-action@v1.0.0
         with:
-          bicepFilePath:  './Workbook/Orphan Resources.bicep'
-          outputFilePath: './Workbook/Orphan Resources.json'
+          bicepFilePath:  "./Workbook/Orphan Resources.bicep"
+          outputFilePath: "./Workbook/Orphan Resources.json"
 
       - name: Add and Commit resulting JSON file
         uses: EndBug/add-and-commit@v9
